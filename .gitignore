@@ -1,0 +1,4 @@
+*.png
+*.pdf
+__pycache__
+data_files.py
