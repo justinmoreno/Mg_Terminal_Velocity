@@ -43,11 +43,11 @@ for i,shot in enumerate(shots):
 
     txt_files = glob.glob('C*.txt')
 
-    roi1 = readdatafile(txt_files[0])
+    #roi1 = readdatafile(txt_files[0])
 
-    roi1time = [i-20 for i in roi1['time']]
+    #roi1time = [i-20 for i in roi1['time']]
 
-    plt.plot(roi1['time'],roi1['voltage'],color = colors[i],label = labels[i],linewidth = 1)
+    #plt.plot(roi1['time'],roi1['voltage'],color = colors[i],label = labels[i],linewidth = 1)
 
 #monitor = readdatafile(txt_files[3])
 #monitor_adj = [i*.01 for i in monitor['voltage']]
